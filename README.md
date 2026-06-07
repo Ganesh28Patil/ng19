@@ -1,2 +1,2 @@
-# ng19-csbs
+# ng19
 learning Angular 19
