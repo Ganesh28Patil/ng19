@@ -1,0 +1,12 @@
+<p class="text-center font-bold text-xl">Admin Component</p>
+<section class="flex flex-col">
+    <div class="flex justify-around m-4">
+    <a class="hover:font-medium hover:border rounded-2xl p-2" routerLink="users">Users</a>
+    <a class="hover:font-medium hover:border rounded-2xl p-2" routerLink="courses">Courses</a>
+    <a class="hover:font-medium hover:border rounded-2xl p-2" routerLink="payments">Payments</a>
+    <a class="hover:font-medium hover:border rounded-2xl p-2" routerLink="system-settings">System Settings</a>
+</div>
+<div class="w-full m-auto border p-4 text-center h-125">
+    <router-outlet></router-outlet>
+</div>
+</section>

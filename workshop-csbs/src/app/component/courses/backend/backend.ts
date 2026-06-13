@@ -2,9 +2,9 @@ import { Component } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'app-courses',
+  selector: 'app-backend',
   imports: [RouterLink,RouterOutlet],
-  templateUrl: './courses.html',
+  templateUrl: './backend.html',
   styles: ``,
 })
-export class Courses {}
+export class Backend {}

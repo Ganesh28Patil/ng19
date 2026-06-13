@@ -1,1 +1,11 @@
-<p>auth works!</p>
+<p class="text-center font-bold text-xl">Auth Component</p>
+<section class="flex flex-col">
+    <div class="flex justify-around m-4">
+    <a class="hover:font-medium hover:border rounded-2xl p-2" routerLink="login">Login</a>
+    <a class="hover:font-medium hover:border rounded-2xl p-2" routerLink="register">Register</a>
+    <a class="hover:font-medium hover:border rounded-2xl p-2" routerLink="forget-password">Forget Password</a>
+</div>
+<div class="w-full m-auto border p-4 text-center h-125">
+    <router-outlet></router-outlet>
+</div>
+</section>

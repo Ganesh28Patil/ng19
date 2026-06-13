@@ -7,4 +7,4 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   templateUrl: './courses.html',
   styles: ``,
 })
-export class Courses {}
+export class AdminCourses {}
