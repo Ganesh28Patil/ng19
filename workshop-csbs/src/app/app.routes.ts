@@ -39,7 +39,7 @@ export const routes: Routes = [
         children:[
             {path:'login',component:Login},
             {path:'register',component:Register},
-            {path:'forget-password',component:ForgotPassword},
+            {path:'forgot-password',component:ForgotPassword},
         ]
     },
     {path:'home',component:Home},
@@ -143,9 +143,9 @@ export const routes: Routes = [
 ├── admin
 │   ├── users
 │   ├── admin-courses 
-|   |    ├── create
-|   |    ├── edit/:id
-|   |    └── manage
+│   │    ├── create
+│   │    ├── edit/:id
+│   │    └── manage
 │   ├── payments
 │   └── system-settings
 │
